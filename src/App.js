@@ -89,7 +89,7 @@ export default function App() {
           {view === 'title' && (
             <Card>
               <CardContent>
-                <h1 className="text-2xl font-bold mb-4">幾何学画像生成AI</h1>
+                <h1 className="text-2xl font-bold mb-4">幾何学的画像生成AI</h1>
                 <Input
                   value={inputText}
                   onChange={(e) => setInputText(e.target.value)}
